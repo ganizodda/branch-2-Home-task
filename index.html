@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    <header class="max-w-[1200px] m-auto flex justify-between items-center h-[60px] ">
-        <h1 class="bg-[back] text-[white] p-[10px] rounded-[10px] bg-[black] ">LOGO</h1>
-        <nav class="flex items-center gap-[30px]">
+    <header class="max-w-[1200px]  m-auto flex justify-between items-center h-[60px] p-[20px] lg:p-[1px]">
+        <h1 class="bg-[back] text-[white] p-[10px] rounded-[10px] bg-[black] hidden lg:block">LOGO</h1>
+        <nav class="flex items-center gap-[30px] lg:flex hidden ">
             <a href="">Booking</a>
             <a href="">Facilities</a>
             <a href="">About Us</a>
@@ -19,6 +20,53 @@
         <a target="_blank"  href="src/about.html ">
             <button class="bg-[#24AB70] text-[white] p-[10px] w-[100px] rounded-[30px]">Login</button>
         </a>
+        <h1 class="lg:hidden"><i class="fa-solid fa-bars"></i></h1>
     </header>
+    <div class="max-w-[1200px] m-auto mt-[40px] bg-[#24AB700A] pl-[20px] lg:h-[600px] h-[1100px] rounded-tl-[25px] rounded-tr-[25px] lg:flex lg:justify-between lg:items-center">
+        <div class="lg:w-[50%] mb-[40px] lg:mb-[1px] h-[400px] ">
+            <h1 class="text-[60px] font-bold">Find your perfect place to stay</h1>
+            <h2 class="text-[22px] mb-[30px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+            <div>
+                <img src="src/images/video.png" alt="">
+            </div>
+        </div>
+        <div class="h-[600px]">
+            <img src="src/images/image.png" alt="" class="h-[100%]">
+        </div>
+    </div>
+    <div class="max-w-[1000px] m-auto bg-[white] h-[100px] rounded-[50px] mt-[-150px] relative p-[20px] flex justify-between" >
+        <div class="w-[150px] p-[10px] h-[70px] border-r-2 border-[grey] ">
+            <div class="flex gap-[10px]">
+                <img src="src/images/pin 1.png" alt="">
+                <h2 class="text-[20px]">Location</h2>
+            </div>
+            <h2>United States</h2>
+        </div>
+        <div class="w-[150px] p-[10px] h-[70px] border-r-2 border-[grey] ">
+            <div class="flex gap-[10px]">
+                <img src="src/images/calendar 1.png" alt="">
+                <h2 class="text-[20px]">Chack in</h2>
+            </div>
+            <h2>10 Jun 2021</h2>
+        </div>
+        <div class="w-[150px] p-[10px] h-[70px] border-r-2 border-[grey] ">
+            <div class="flex gap-[10px]">
+                <img src="src/images/calendar 1.png" alt="">
+                <h2 class="text-[20px]">Chack in</h2>
+            </div>
+            <h2>15 Jun 2021</h2>
+        </div>
+        <div class="w-[150px] p-[10px] h-[70px]  ">
+            <div class="flex gap-[10px]">
+                <img src="src/images/person 1.png" alt="">
+                <h2 class="text-[20px]">Rooms for</h2>
+            </div>
+            <h2>1 room, 2 guests</h2>
+        </div>
+
+        <div class="bg-[#24AB70] text-[white] p-[20px] rounded-[30px] ">
+            <h1 ><i class="fa-solid fa-magnifying-glass"></i>Saerch...</h1>
+        </div>
+    </div>
 </body>
 </html>
